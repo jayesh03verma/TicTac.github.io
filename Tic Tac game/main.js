@@ -3,7 +3,7 @@
   const P2 = 'O';
   let player;
   let game;
-  const host = 127.0.0.1;
+  //const host = 127.0.0.1;
    //const socket = io.connect('http://tictacgametoe.herokuapp.com'),
    //const socket = io.connect(window.location.protocol + "//" + window.location.host);
    const socket = io.connect("http://localhost:5000");
